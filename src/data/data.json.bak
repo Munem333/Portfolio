@@ -1,0 +1,125 @@
+{
+  "data": {
+    "fullName": "Munem Shahriar Khan",
+    "profileImage": "munem.jpg",
+    "email": "munem.shahriar@example.com",
+    "titleArray": [
+      "Software QA Engineer",
+      "Automation Tester",
+      "SDET",
+      "Quality Advocate"
+    ],
+    "subTitle": "Detail-oriented Software QA Engineer with 6+ years experience in manual and automated testing across web and mobile platforms.",
+    "resumeLink": "./resume/Munem_Shahriar_Khan_CV.pdf",
+    "aboutDescription": [
+      "I am a Software QA Engineer with a passion for delivering reliable, scalable, and user-friendly software. I specialize in test automation, API testing, performance testing, and building robust test frameworks.",
+      "My experience spans cross-functional teams, collaborating with developers and product owners to improve software quality and accelerate delivery cycles.",
+      "I am proficient with Selenium, Cypress, Playwright, Postman, JMeter, and CI/CD pipelines (GitHub Actions, Jenkins). I enjoy mentoring junior testers and building test automation from the ground up."
+    ],
+    "aboutImage": "munem.jpg",
+    "skills": [
+      {
+        "title": "Testing & Automation",
+        "skillname": [
+          { "name": "Selenium", "image": "selenium" },
+          { "name": "Cypress", "image": "cypress" },
+          { "name": "Playwright", "image": "playwright" },
+          { "name": "Postman", "image": "postman" },
+          { "name": "JMeter", "image": "jmeter" }
+        ]
+      },
+      {
+        "title": "Programming & Automation",
+        "skillname": [
+          { "name": "JavaScript", "image": "javascript" },
+          { "name": "Python", "image": "py" },
+          { "name": "Java", "image": "java" }
+        ]
+      },
+      {
+        "title": "DevOps & Tools",
+        "skillname": [
+          { "name": "Git", "image": "git" },
+          { "name": "Docker", "image": "docker" },
+          { "name": "Jenkins", "image": "jenkins" },
+          { "name": "JIRA", "image": "jira" }
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "projectName": "E-commerce Regression Suite",
+        "projectType": "Automation",
+        "projectImage": ["projects/ecom-1.png"],
+        "techStack": [
+          { "name": "Selenium", "image": "selenium" },
+          { "name": "Java", "image": "java" },
+          { "name": "TestNG", "image": "testng" }
+        ],
+        "description": "Built a stable regression automation suite for a large e-commerce platform reducing manual regression time by 80%.",
+        "githubLink": "",
+        "liveLink": ""
+      },
+      {
+        "projectName": "API Test Framework",
+        "projectType": "Automation",
+        "projectImage": ["projects/api-1.png"],
+        "techStack": [
+          { "name": "Postman", "image": "postman" },
+          { "name": "Newman", "image": "newman" }
+        ],
+        "description": "Designed end-to-end API test suites with automated CI runs and detailed reporting.",
+        "githubLink": "",
+        "liveLink": ""
+      },
+      {
+        "projectName": "Performance Testing on Payments",
+        "projectType": "Performance",
+        "projectImage": ["projects/perf-1.png"],
+        "techStack": [
+          { "name": "JMeter", "image": "jmeter" }
+        ],
+        "description": "Executed load and stress tests to validate payment pipeline stability under peak traffic.",
+        "githubLink": "",
+        "liveLink": ""
+      }
+    ],
+    "experience": [
+      {
+        "role": "Senior QA Engineer",
+        "company": "Acme Tech Ltd",
+        "duration": "2021 - Present",
+        "achievements": [
+          "Led the automation team and migrated legacy test suites to Playwright and Cypress.",
+          "Implemented CI/CD test runs and reduced nightly regression time by 70%."
+        ]
+      },
+      {
+        "role": "QA Engineer",
+        "company": "SoftWorks",
+        "duration": "2018 - 2021",
+        "achievements": [
+          "Created API testing frameworks and integrated reporting with Slack notifications.",
+          "Mentored junior testers and improved test coverage across products."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "B.Sc. in Computer Science",
+        "institution": "University of Dhaka",
+        "year": "2017"
+      }
+    ],
+    "certifications": [
+      { "name": "ISTQB Foundation", "issuer": "ISTQB", "year": "2019" },
+      { "name": "Certified Kubernetes Application Developer (CKAD)", "issuer": "CNCF", "year": "2022" }
+    ],
+    "contactParagraph": "I am actively seeking opportunities in QA, automation, and SDET roles. Feel free to message me for collaboration or hiring.",
+    "socialLinks": {
+      "github": "https://github.com/munem-shahriar",
+      "linkedin": "https://www.linkedin.com/in/munem-shahriar-khan/",
+      "instagram": ""
+    }
+  }
+}

@@ -1,0 +1,201 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* SpaceX Theme - Custom utilities and variables */
+:root{
+  --accent: #ffffff; /* SpaceX uses white as accent */
+  --spacex-bg: #000000;
+  --spacex-dark: #0a0a0a;
+  --spacex-gray: #1a1a1a;
+  --spacex-text: #ffffff;
+  --spacex-text-gray: #cccccc;
+}
+
+.container-max { @apply max-w-6xl mx-auto px-4; }
+
+/* SpaceX Theme - Always dark, clean and minimalist */
+html {
+  background-color: #000000;
+  color: #ffffff;
+  transition: background-color 200ms ease, color 200ms ease;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+/* SpaceX-style selection */
+::selection {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}
+
+/* SpaceX-style scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1a1a1a;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2a2a2a;
+}
+
+/* SpaceX background animation - subtle particles effect */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Smooth fade-in animation */
+.spacex-fade-in {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+/* Parallax effect */
+.parallax {
+  transition: transform 0.3s ease-out;
+}
+
+/* Glow effect for interactive elements */
+.spacex-glow {
+  transition: box-shadow 0.3s ease;
+}
+
+.spacex-glow:hover {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+/* SpaceX 3D planet (Mars-like) */
+.earth-wrapper {
+  position: absolute;
+  top: 2%;
+  right: -20px;
+  width: 420px;
+  height: 420px;
+  filter: drop-shadow(0 15px 45px rgba(255, 160, 110, 0.25));
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .earth-wrapper {
+    top: -20px;
+    right: -10px;
+    width: 260px;
+    height: 260px;
+    opacity: 0.9;
+  }
+}
+
+.earth {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 30% 35%, rgba(255, 200, 160, 0.25), rgba(255, 200, 160, 0) 40%),
+    radial-gradient(circle at 65% 60%, rgba(255, 220, 180, 0.18), rgba(255, 220, 180, 0) 48%),
+    radial-gradient(circle at 50% 50%, #a25e3f, #7b4831 65%, #2b1a14 100%);
+  overflow: hidden;
+  animation: earth-rotate 16s linear infinite;
+}
+
+.earth-core {
+  position: absolute;
+  inset: 8%;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, rgba(255, 180, 140, 0.3), rgba(0, 0, 0, 0) 60%);
+}
+
+.earth-glow {
+  position: absolute;
+  inset: -12%;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255,170,120,0.14), rgba(0,0,0,0) 60%);
+  filter: blur(18px);
+}
+
+.earth-shine {
+  position: absolute;
+  width: 140%;
+  height: 140%;
+  top: -20%;
+  left: -20%;
+  background: conic-gradient(from 90deg, rgba(255,180,140,0.12), rgba(255,180,140,0));
+  mix-blend-mode: screen;
+  animation: earth-shine 18s linear infinite;
+}
+
+.earth-lines {
+  position: absolute;
+  width: 210%;
+  height: 210%;
+  top: -55%;
+  left: -55%;
+  border-radius: 50%;
+  border: 1px solid rgba(255,170,120,0.08);
+  animation: earth-lines 14s linear infinite;
+}
+
+.earth-lines-1 {
+  transform: rotate(20deg);
+}
+
+.earth-lines-2 {
+  transform: rotate(-25deg);
+  animation-duration: 20s;
+}
+
+.earth-spot {
+  position: absolute;
+  width: 36%;
+  height: 24%;
+  top: 52%;
+  right: 16%;
+  border-radius: 50%;
+  background: radial-gradient(circle at 40% 50%, rgba(210,110,70,0.4), rgba(140,70,40,0.22), rgba(70,40,20,0.1) 75%, rgba(0,0,0,0) 100%);
+  filter: blur(1px);
+  transform: rotate(-8deg);
+  mix-blend-mode: screen;
+}
+
+@keyframes earth-rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes earth-shine {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(-360deg); }
+}
+
+@keyframes earth-lines {
+  from { transform: rotate(0deg) scale(1); }
+  to { transform: rotate(360deg) scale(1); }
+}
