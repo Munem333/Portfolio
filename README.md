@@ -127,7 +127,7 @@ Icon8 Icons are used in skill section. You can find all the icons here: [Icon8](
 
 ## Author
 
-👤 **Vandit Shah**
+👤 **Munem Shahriar Khan**
 - Website: https://github.com/Munem333/Portfolio.git
 - Github: [Munem333](https://github.com/Munem333)
 - LinkedIn: [Munem Shahriar Khan](https://www.linkedin.com/in/munem-shahriar-khan-5596a12b6/)
