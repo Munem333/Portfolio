@@ -34,11 +34,11 @@ Theme persistence
 - The initial theme follows your previous choice (if any) or your OS preference.
 # Portfolio Template - A Fully Customizable React.js Portfolio Website  
 
-![Portfolio Mockup](https://raw.githubusercontent.com/ShahVandit8/portfolio/refs/heads/main/Mockup.png)  
+ 
 
 Welcome to **Portfolio Template**, a sleek and fully customizable portfolio website built with **React.js** and **Bootstrap**. This template is designed to help developers, designers, and creatives showcase their work effortlessly. With a simple JSON-based configuration, you can personalize the entire website without touching a single line of code.  
 
-👉 **Live Preview:** [View Demo](https://vandit-shah.me/)  
+👉 **Live Preview:** [View Demo](https://portfolio-mu-sepia-18.vercel.app/)  
 
 ---
 
@@ -78,7 +78,7 @@ Ensure you have the following installed on your machine:
 1. Fork this repoistory and clone it to your local machine.
 
 ```bash
-$ git clone https://github.com/ShahVandit8/portfolio.git
+$ git clone https://github.com/Munem333/Portfolio.git
 ```
 
 2. Go into the repository
@@ -128,9 +128,9 @@ Icon8 Icons are used in skill section. You can find all the icons here: [Icon8](
 ## Author
 
 👤 **Vandit Shah**
-- Website: https://vandit-shah.me/
-- Github: [ShahVandit8](https://github.com/ShahVandit8)
-- LinkedIn: [shah-vandit](https://www.linkedin.com/in/shah-vandit/)
+- Website: https://github.com/Munem333/Portfolio.git
+- Github: [Munem333](https://github.com/Munem333)
+- LinkedIn: [Munem Shahriar Khan](https://www.linkedin.com/in/munem-shahriar-khan-5596a12b6/)
 
 ## Show your support
 
@@ -138,4 +138,4 @@ Use this Project and Customize it according to your need for free
 
 Just Give a ⭐️ if this project helped you!
 
-Made with ❤️ and ☕ by [Vandit Shah](https://github.com/ShahVandit8)
+Made with ❤️ and ☕ by [Munem Shahriar Khan](https://github.com/Munem333)
