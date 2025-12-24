@@ -56,7 +56,7 @@
       {
         "projectName": "Impact of Extended Gaming Hours",
         "projectType": "Research & Data Analysis",
-        "projectImage": ["projects/thesis-1.png"],
+        "projectImage": ["thesis-1.png"],
         "techStack": [
           { "name": "SPSS", "image": "spss" },
           { "name": "SmartPLS", "image": "smartpls" },
@@ -69,7 +69,7 @@
       {
         "projectName": "Bracu Food Mart",
         "projectType": "Web Development",
-        "projectImage": ["projects/foodmart-1.png"],
+        "projectImage": ["foodmart-1.png"],
         "techStack": [
           { "name": "Laravel", "image": "laravel" },
           { "name": "MySQL", "image": "mysql" },
@@ -82,7 +82,7 @@
       {
         "projectName": "AI-Driven Counterfactual Analysis for Multiple Myeloma",
         "projectType": "Machine Learning",
-        "projectImage": ["projects/ml-1.png"],
+        "projectImage": ["ml-1.png"],
         "techStack": [
           { "name": "Python", "image": "py" },
           { "name": "TensorFlow", "image": "tensorflow" },
@@ -95,7 +95,7 @@
       {
         "projectName": "Multi-Class Lymphoma Classification",
         "projectType": "Image Processing & ML",
-        "projectImage": ["projects/lymphoma-1.png"],
+        "projectImage": ["lymphoma-1.png"],
         "techStack": [
           { "name": "Python", "image": "py" },
           { "name": "TensorFlow", "image": "tensorflow" },
@@ -109,7 +109,7 @@
       {
         "projectName": "AI-Powered Chatbot for Customer Support",
         "projectType": "AI & NLP",
-        "projectImage": ["projects/chatbot-1.png"],
+        "projectImage": ["chatbot-1.png"],
         "techStack": [
           { "name": "Python", "image": "py" },
           { "name": "CNN", "image": "ml" },

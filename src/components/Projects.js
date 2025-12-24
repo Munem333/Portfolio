@@ -41,9 +41,7 @@ const Projects = ({ limit }) => {
               }}
               className="rounded-lg overflow-hidden shadow hover:shadow-lg transition bg-spacex-gray border border-spacex-light-gray spacex-glow"
             >
-              <div className="md:flex">
-                <img src={p.projectImage && p.projectImage.length ? `/images/projects/${p.projectImage[0]}` : '/images/projects/placeholder.png'} alt={p.projectName} className="w-full md:w-1/2 h-48 object-cover" />
-                <div className="p-4 md:w-1/2">
+              <div className="p-6">
                   <h3 className="text-sm text-spacex-text-gray">{p.projectType}</h3>
                   <h4 className="text-xl font-semibold mt-1 text-spacex-text">{p.projectName}</h4>
                   <p className="mt-3 text-spacex-text-gray">{p.description}</p>
@@ -71,7 +69,6 @@ const Projects = ({ limit }) => {
                     {p.githubLink && <a href={p.githubLink} target="_blank" rel="noreferrer" className="text-sm px-3 py-2 border border-spacex-text-gray text-spacex-text rounded hover:bg-spacex-light-gray transition-colors">Source</a>}
                     {p.liveLink && <a href={p.liveLink} target="_blank" rel="noreferrer" className="text-sm px-3 py-2 bg-spacex-text text-spacex-black rounded hover:bg-spacex-text-gray transition-colors">Live</a>}
                   </div>
-                </div>
               </div>
             </motion.article>
           ))}
