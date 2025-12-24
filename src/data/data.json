@@ -58,9 +58,9 @@
         "projectType": "Research & Data Analysis",
         "projectImage": ["projects/thesis-1.png"],
         "techStack": [
-          { "name": "SPSS" },
-          { "name": "SmartPLS" },
-          { "name": "Data Analysis" }
+          { "name": "SPSS", "image": "spss" },
+          { "name": "SmartPLS", "image": "smartpls" },
+          { "name": "Data Analysis", "image": "analysis" }
         ],
         "description": "Thesis analyzing the impact of extended gaming hours on academic performance and mental health among Bangladeshi undergraduate students using SPSS and SmartPLS.",
         "githubLink": "",
@@ -71,9 +71,9 @@
         "projectType": "Web Development",
         "projectImage": ["projects/foodmart-1.png"],
         "techStack": [
-          { "name": "Laravel" },
-          { "name": "MySQL" },
-          { "name": "Web Development" }
+          { "name": "Laravel", "image": "laravel" },
+          { "name": "MySQL", "image": "mysql" },
+          { "name": "Web Development", "image": "git" }
         ],
         "description": "Designed and implemented an online food ordering and delivery platform covering ordering, payment, and delivery flows.",
         "githubLink": "",
@@ -84,9 +84,9 @@
         "projectType": "Machine Learning",
         "projectImage": ["projects/ml-1.png"],
         "techStack": [
-          { "name": "Python" },
-          { "name": "TensorFlow" },
-          { "name": "Machine Learning" }
+          { "name": "Python", "image": "py" },
+          { "name": "TensorFlow", "image": "tensorflow" },
+          { "name": "Machine Learning", "image": "ml" }
         ],
         "description": "Developed an AI-driven counterfactual analysis system to improve predictive accuracy for Multiple Myeloma.",
         "githubLink": "",
@@ -97,10 +97,10 @@
         "projectType": "Image Processing & ML",
         "projectImage": ["projects/lymphoma-1.png"],
         "techStack": [
-          { "name": "Python" },
-          { "name": "TensorFlow" },
-          { "name": "Transfer Learning" },
-          { "name": "Image Processing" }
+          { "name": "Python", "image": "py" },
+          { "name": "TensorFlow", "image": "tensorflow" },
+          { "name": "Transfer Learning", "image": "ml" },
+          { "name": "Image Processing", "image": "ml" }
         ],
         "description": "Implemented multi-class lymphoma classification using ensemble transfer learning models for medical imaging.",
         "githubLink": "",
@@ -111,9 +111,9 @@
         "projectType": "AI & NLP",
         "projectImage": ["projects/chatbot-1.png"],
         "techStack": [
-          { "name": "Python" },
-          { "name": "CNN" },
-          { "name": "NLP" }
+          { "name": "Python", "image": "py" },
+          { "name": "CNN", "image": "ml" },
+          { "name": "NLP", "image": "ml" }
         ],
         "description": "Built an AI chatbot for customer support using CNN-based NLP to enhance user interaction.",
         "githubLink": "",

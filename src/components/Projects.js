@@ -49,7 +49,22 @@ const Projects = ({ limit }) => {
                   <p className="mt-3 text-spacex-text-gray">{p.description}</p>
                   <div className="mt-3 flex flex-wrap gap-2">
                     {p.techStack.map((t,i)=> (
-                      <span key={i} className="text-xs px-2 py-1 bg-spacex-light-gray text-spacex-text-gray rounded border border-spacex-gray">{t.name}</span>
+                      <span key={i} className="text-xs px-2 py-1 bg-spacex-light-gray text-spacex-text-gray rounded border border-spacex-gray flex items-center gap-1.5">
+                        {t.image && (
+                          <img
+                            src={`/images/icons/${t.image}.png`}
+                            alt={t.name}
+                            className="w-4 h-4 object-contain"
+                            onError={(e) => {
+                              if (!e.target.src.includes('.svg')) {
+                                e.target.onerror = null;
+                                e.target.src = `/images/icons/${t.image}.svg`;
+                              }
+                            }}
+                          />
+                        )}
+                        {t.name}
+                      </span>
                     ))}
                   </div>
                   <div className="mt-4 flex gap-3">
