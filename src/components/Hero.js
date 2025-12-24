@@ -5,7 +5,7 @@ import data from '../data/data.json'
 import SpacexEarth from './SpacexEarth'
 
 const Hero = () => {
-    const { fullName, titleArray, subTitle, resumeLink, profileImage } = data.data
+    const { fullName, titleArray, subTitle, profileImage } = data.data
 
     const containerVariants = {
         hidden: { opacity: 0 },
@@ -106,17 +106,6 @@ const Hero = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.9, duration: 0.6 }}
                     >
-                        <motion.a 
-                            href={resumeLink} 
-                            target="_blank" 
-                            rel="noreferrer" 
-                            className="px-4 py-2 bg-spacex-text text-spacex-black rounded spacex-glow"
-                            whileHover={{ scale: 1.05, boxShadow: "0 0 20px rgba(255, 255, 255, 0.2)" }}
-                            whileTap={{ scale: 0.95 }}
-                            transition={{ duration: 0.2 }}
-                        >
-                            Download CV
-                        </motion.a>
                         <motion.a 
                             href="#projects" 
                             className="px-4 py-2 border border-spacex-text-gray text-spacex-text rounded spacex-glow"
